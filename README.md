@@ -44,6 +44,7 @@ The project utilizes a subset of the Food101 dataset, which comprises 101 food c
 |---------------------------|-----------|-------------------|----------------|------------------|-------------------------------|  
 | EffNetB2 Feature Extractor| 0.281     | 96.88             | 7,705,221      | 29               | 0.0269                        |  
 | ViT-B/16 Feature Extractor| 0.064     | 98.47             | 85,800,963     | 327              | 0.0641                        |  
+
 **Key Takeaway**: While ViT achieved slightly higher accuracy, EffNetB2 was chosen for deployment due to its significantly smaller model size and faster inference time, making it more suitable for mobile and web-based applications where speed is critical.  
 ## 🌐 Deployment  
 The trained models were deployed as interactive web applications using **Gradio**, a Python library for quickly creating customizable UI components for ML models. These Gradio applications were then hosted on **Hugging Face Spaces**, a platform for sharing and showcasing machine learning demos.  
